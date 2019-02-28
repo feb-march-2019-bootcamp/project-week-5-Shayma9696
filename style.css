@@ -1,0 +1,82 @@
+
+
+body {
+  background-color:pink;
+  color:black;
+  font-weight:500;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+a {
+    font-weight:500;
+    text-decoration:none;
+    color:#fff;
+  }
+#quote-box {
+  border-radius:3px;
+  position:relative;
+  margin:8% auto;
+  width:350px;
+  padding:45px 60px;
+  display:table;
+  background-color:#fff;
+    text-align:center;
+    height:auto;
+    clear:both;
+    font-weight:500;
+    font-size:1.75rem;
+  }
+  .quote-text > i{
+      font-size:1.0em;
+      margin-right: 0.4em;
+    }
+  .quote-author {
+    width:450px;
+    height:auto;
+    clear:both;
+    padding-top:20px;
+    font-size:1em; 
+    text-align:right;
+  }
+ 
+    .button {
+        height:38px;
+        border:none;
+        border-radius:3px;
+        color:black;
+        background-color:pink;
+        outline:none;
+        font-size:0.85em;
+        padding: 8px 18px 6px 18px;
+        margin-top:30px;
+        opacity:1;
+        cursor:pointer;
+    }
+      #tweet-quote, #tumblr-quote {
+        float:left;
+        padding:0px;
+        padding-top:8px;
+        text-align:center;
+        font-size:1.2em;
+        margin-right:5px;
+        height:30px;
+        width:40px;
+        color:black;
+      }
+
+      #new-quote {
+        float:right;
+      }
+  
+
+.footer {
+  width:450px;
+  text-align:center;
+  display:block;
+  margin:15px auto 30px auto;
+  font-size:0.8em;
+  color:#fff; 
+}
